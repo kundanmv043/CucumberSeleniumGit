@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="17.124813">
+<testcase classname="Login Feature" name="A valid Scenario" time="12.684913">
+<system-out><![CDATA[Given the url of the login page.............................................passed
+When admin user enters abc@gmail.com as username............................passed
+And admin user enters abc123 as passsword...................................passed
+Then valid user.............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Feature" name="A valid Scenario 2" time="4.4399">
+<system-out><![CDATA[Given the url of the login page.............................................passed
+When admin user enters kunal@email.com as username..........................passed
+And admin user enters 123456 as passsword...................................passed
+Then valid user.............................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
